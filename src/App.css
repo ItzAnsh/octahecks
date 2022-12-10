@@ -13,6 +13,13 @@
 	}
 }
 
+body {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
 .App-header {
 	background-color: #282c34;
 	min-height: 100vh;
@@ -55,4 +62,5 @@
 
 /* * {
 	border: 1px solid #f00;
-} */
+}
+ */
