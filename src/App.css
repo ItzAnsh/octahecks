@@ -44,3 +44,15 @@
 #Judges {
 	background-image: url("assets/media/tracks/tracksBg.png");
 }
+
+#Mentors {
+	background-image: url("assets/media/prizes/prizesBg.png");
+}
+
+#Sponsors {
+	background-image: url("assets/media/tracks/tracksBg.png");
+}
+
+/* * {
+	border: 1px solid #f00;
+} */

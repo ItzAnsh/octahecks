@@ -5,6 +5,7 @@ import Tracks from "./sections/tracks/tracks";
 import Prizes from "./sections/prizes/prizes";
 import Judges from "./sections/judges/judges";
 import Mentors from "./sections/mentors/mentors";
+import Sponsors from "./sections/sponsors/sponsors";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<Prizes />
 			<Judges />
 			<Mentors />
+			<Sponsors />
 		</div>
 	);
 }
