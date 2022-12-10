@@ -7,7 +7,7 @@ export default function Tracks() {
 	return (
 		<section
 			id="Tracks"
-			className="2xl:h-screen xl:h-fit bg-[length:100%_100%] mt-2"
+			className="h-fit bg-[length:100%_100%] mt-40 ml-0 z-10 md:h-fit sm:h-fit max-sm:h-fit"
 		>
 			<div className="container mx-auto">
 				<div className="grid grid-cols-12">

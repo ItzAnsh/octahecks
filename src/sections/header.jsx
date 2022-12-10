@@ -3,7 +3,7 @@ import gdscLogo from "../assets/media/logos/logo-gdsc.svg";
 
 function Header() {
 	return (
-		<header id="Header" className="container mx-auto">
+		<header id="Header" className="container mx-auto z-10">
 			<div className="grid grid-cols-12 p-8 fixed">
 				<div className="col-span-1">
 					<img src={octaLogo} alt="" className="" />

@@ -4,7 +4,10 @@ import Rocket from "../../assets/media/rocket.svg";
 
 export default function Landing() {
 	return (
-		<section id="Landing" className="h-screen bg-[length:100%_100%]">
+		<section
+			id="Landing"
+			className="h-fit bg-[length:100%_100%] ml-0 z-10 md:h-fit sm:h-fit max-sm:h-fit"
+		>
 			<div className="container mx-auto">
 				<div className="grid grid-cols-12">
 					<div className="col-span-1"></div>

@@ -4,10 +4,13 @@ import Celo from "../../assets/media/prizes/celo.svg";
 
 export default function Prizes() {
 	return (
-		<section id="Prizes" className="h-screen bg-[length:100%_100%] mt-40 ml-0">
+		<section
+			id="Prizes"
+			className="h-screen bg-[length:100%_100%] mt-40 ml-0 z-0 md:h-fit sm:h-fit max-sm:h-fit"
+		>
 			<div className="container mx-auto">
 				<div className="grid grid-cols-12">
-					<div className="col-span-1 block md:hidden sm:hidden"></div>
+					<div className="col-span-1 2xl:block xl:block lg:block md:hidden sm:hidden"></div>
 
 					<div className="col-span-11 md:col-span-12 sm:col-span-12 max-sm:col-span-12">
 						<div className="grid grid-cols-12">
