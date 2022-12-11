@@ -10,7 +10,7 @@ export default function Sponsors() {
 			className="h-screen 2xl:h-fit xl:h-screen lg:h-fit md:h-fit sm:h-fit max-sm:h-fit bg-[length:100%_100%] mt-40 ml-0 z-10"
 		>
 			<div className="grid grid-cols-12 container mx-auto">
-				<div className="col-span-1"></div>
+				<div className="col-span-1 z-0"></div>
 
 				<div className="col-span-11">
 					<div className="grid grid-cols-12">
@@ -37,8 +37,8 @@ export default function Sponsors() {
 					</div>
 
 					<div className="grid grid-cols-12 mt-24">
-						<div className="col-span-12">
-							<div className="sponsorsDiv flex flex-row w-[150vw] gap-x-8 animate-marquee">
+						<marquee className="col-span-12 z-100">
+							<div className="sponsorsDiv flex flex-row w-[150vw] gap-x-8">
 								<div className="platSponsors bg-[#d9d9d9]/10 w-96 flex flex-wrap justify-center items-center p-8 rounded-xl basis-1/5">
 									<div className="platHeader text-white text-3xl basis-full">
 										Platinum Sponsors
@@ -154,7 +154,7 @@ export default function Sponsors() {
 									/>
 								</div>
 							</div>
-						</div>
+						</marquee>
 					</div>
 				</div>
 			</div>

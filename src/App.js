@@ -6,6 +6,7 @@ import Prizes from "./sections/prizes/prizes";
 import Judges from "./sections/judges/judges";
 import Mentors from "./sections/mentors/mentors";
 import Sponsors from "./sections/sponsors/sponsors";
+import Contact from "./sections/contactUs/contactUs";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<Judges />
 			<Mentors />
 			<Sponsors />
+			<Contact />
 		</div>
 	);
 }
