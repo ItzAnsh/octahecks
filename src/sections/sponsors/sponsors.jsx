@@ -14,12 +14,14 @@ export default function Sponsors() {
 
 				<div className="col-span-11">
 					<div className="grid grid-cols-12">
-						<div className="col-span-12 text-7xl w-full">
-							<div className="text-light text-white text-fruBold w-fit mx-auto sponsorsHead">
+						<div className="col-span-12  w-full">
+							<div className="text-light text-white text-fruBold w-fit mx-auto sponsorsHead text-6xl 2xl:text-7xl xl:text-7xl lg:text-7xl md:text-5xl sm:text-4xl xs:text-4xl">
 								Our
+								<br className="block 2xl:hidden xl:hidden lg:hidden md:block sm:block xs:block" />
 								<span className="bg-gradient-to-r from-indigo-400 via-pink-300 to-rose-400 bg-clip-text text-transparent text-left text-fruBold mx-auto mx-3">
 									Awesome
 								</span>
+								<br className="block 2xl:hidden xl:hidden lg:hidden md:block sm:block xs:block" />
 								Sponsors
 							</div>
 						</div>
@@ -28,7 +30,7 @@ export default function Sponsors() {
 					<div className="grid grid-cols-12">
 						<div className="col-span-12 lg:col-span-12 md:col-span-11 max-md:col-span-11 mt-12">
 							<div className="subTextTracks">
-								<p className="text-white text-left text-2xl border-l-2 pl-4">
+								<p className="text-white text-left border-l-2 pl-4 text-base 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl sm:text-base xs:text-base">
 									While all our participants make our event lively. it is our
 									very amazing sponsors that make it possible
 								</p>

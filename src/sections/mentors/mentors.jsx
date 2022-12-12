@@ -12,7 +12,7 @@ export default function Mentors() {
 						<div className="grid grid-cols-12">
 							<div className="col-span-12">
 								<div className="title mx-none md:mx-auto max-md:mx-auto">
-									<div className="bg-gradient-to-r from-indigo-400 via-pink-300 to-rose-400 bg-clip-text text-transparent text-7xl text-fruBold w-fit text-left mx-auto">
+									<div className="bg-gradient-to-r from-indigo-400 via-pink-300 to-rose-400 bg-clip-text text-transparent text-fruBold w-fit text-left mx-auto text-4xl 2xl:text-7xl xl:text-7xl lg:text-7xl md:text-5xl sm:text-4xl xs:text-4xl">
 										Mentors
 									</div>
 								</div>

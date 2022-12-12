@@ -21,7 +21,7 @@ export default function Landing() {
 							</div>
 
 							<div className="col-span-7 mt-8">
-								<div className="Head text-fruBold text-8xl bg-gradient-to-r from-indigo-400 via-pink-300 to-rose-400 bg-clip-text text-transparent text-left w-fit lg:mx-0 md:mx-auto max-md:mx-auto">
+								<div className="Head text-fruBold text-5xl 2xl:text-8xl xl:text-8xl lg:text-8xl md:text-7xl sm:text-5xl xs:text-5xl bg-gradient-to-r from-indigo-400 via-pink-300 to-rose-400 bg-clip-text text-transparent text-left w-fit lg:mx-0 md:mx-auto max-md:mx-auto">
 									OctaHacks <span className="text-3xl">5.0</span>
 								</div>
 							</div>
