@@ -7,7 +7,7 @@ export default function Sponsors() {
 	return (
 		<section
 			id="Sponsors"
-			className="h-screen 2xl:h-fit xl:h-screen lg:h-fit md:h-fit sm:h-fit max-sm:h-fit bg-[length:100%_100%] mt-40 ml-0 z-10"
+			className="h-screen 2xl:h-fit xl:h-screen lg:h-fit md:h-fit sm:h-fit max-sm:h-fit bg-[length:100%_100%] mt-40 ml-0 z-10 2xl:block xl:block lg:block md:block sm:hidden hidden"
 		>
 			<div className="grid grid-cols-12 container mx-auto">
 				<div className="col-span-1 z-0"></div>
